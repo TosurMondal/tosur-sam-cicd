@@ -3,7 +3,7 @@ Transform: AWS::Serverless-2016-10-31
 Description: >
   tosur-sam-cicd
 
-  Sample SAM Template for tosur-sam-cicd
+  Sample SAM Template for tosur-sam-cicd d
 
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:

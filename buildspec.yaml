@@ -6,7 +6,6 @@ phases:
   build:
     commands:
       - pip install --upgrade awscli
-      - export BUCKET=tosur-sam-cicd
       - >-
         aws cloudformation package --template-file template.yaml --s3-bucket
         tosur-sam-sar --output-template-file outputtemplate.yaml
