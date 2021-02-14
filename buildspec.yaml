@@ -8,7 +8,7 @@ phases:
       - pip install --upgrade awscli
       - >-
         aws cloudformation package --template-file template.yaml --s3-bucket
-        tosur-sam-sar --output-template-file outputtemplate.yaml
+        tosur-sam-cd --output-template-file outputtemplate.yaml
 artifacts:
   type: zip
   files:
